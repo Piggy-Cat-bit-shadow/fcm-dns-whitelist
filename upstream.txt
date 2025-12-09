@@ -1,0 +1,4 @@
+# Upstream lists for Google / FCM friendly rules
+https://gist.githubusercontent.com/DessertArbiter/ba13c026c0d3058fd122e082898c2c84/raw
+https://raw.githubusercontent.com/swetoast/adguardhome-lists/main/whitelist.txt
+https://raw.githubusercontent.com/Ealenn/AdGuard-Home-List/gh-pages/AdGuard-Home-List.Allow.txt
