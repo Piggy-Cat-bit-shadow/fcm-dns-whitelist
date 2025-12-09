@@ -1,7 +1,83 @@
-@@||mtalk.google.com^
-@@||fcm.googleapis.com^
-@@||firebase.googleapis.com^
-@@||googleapis.com^
-@@||android.googleapis.com^
-@@||gstatic.com^
-@@||googleusercontent.com^
+! Google
+! Title: AdGuard Google whitelist
+## Google
+## Google Apis 
+### Andrioid: https://play.google.com/store/apps/details?id=com.tplink.tpm5&hl=en&gl=US IOS: https://apps.apple.com/us/app/tp-link-deco/id1186159417
+### Android: https://play.google.com/store/apps/details?id=se.postnord.private&hl=en&gl=US IOS: https://apps.apple.com/se/app/postnord-sp%C3%A5ra-dina-paket/id396871673
+### Url: https://authy.com/download/ Android: https://play.google.com/store/apps/details?id=com.authy.authy&hl=en&utm_source=apkvariant.com IOS: https://apps.apple.com/us/app/twilio-authy/id494168017
+### Url: https://developers.google.com/discovery/v1/getting_started
+### Url: https://discord.com/download Android: https://play.google.com/store/apps/details?id=com.discord&hl=en&gl=US IOS: https://apps.apple.com/us/app/discord-chat-talk-hangout/id985746746
+### Url: https://jdownloader.org/jdownloader2 Android: https://play.google.com/store/apps/details?id=org.appwork.myjdandroid&hl=en&gl=US IOS: https://apps.apple.com/us/app/myjdownloader-remote/id1203271558
+### Url: https://play.google.com/store/apps/details?id=com.meteoplaza.flash&hl=en&gl=US
+### Url: https://play.google.com/store/apps/details?id=org.mistergroup.shouldianswer&hl=en&gl=US
+### Url: https://store.google.com/category/watches_trackers
+### Url: https://store.steampowered.com/about/ Android: https://play.google.com/store/apps/details?id=com.valvesoftware.android.steam.community&hl=en&gl=US IOS: https://apps.apple.com/us/app/steam-mobile/id495369748
+### Url: https://syncthing.net/ or https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid&hl=en&gl=US
+### Url: https://www.bankid.com/ Android: https://play.google.com/store/apps/details?id=com.bankid.bus&hl=en&gl=US IOS: https://apps.apple.com/se/app/bankid-s%C3%A4kerhetsapp/id433151512
+### Url: https://www.mozilla.org/en-US/firefox/new/ Android: https://play.google.com/store/apps/details?id=org.mozilla.firefox&hl=en&gl=US IOS: https://apps.apple.com/us/app/firefox-private-safe-browser/id989804926
+### Url: https://www.plex.tv/media-server-downloads/ or Android: https://play.google.com/store/apps/details?id=com.plexapp.android&hl=en&gl=US IOS: https://apps.apple.com/us/app/plex-stream-movies-tv/id383457673
+### Url: https://www.pushbullet.com/ Android: https://play.google.com/store/apps/details?id=com.pushbullet.android&hl=en&gl=US
+### Url: https://www.wireguard.com/install/ Android: https://play.google.com/store/apps/details?id=com.wireguard.android&hl=en&gl=US IOS: https://apps.apple.com/us/app/wireguard/id1441195209
+### Url: https://www.xbox.com/en-US/xbox-game-pass Android: https://play.google.com/store/apps/details?id=com.gamepass&hl=en&gl=US IOS: https://apps.apple.com/us/app/xbox-game-pass/id1374542474
+/^((0\.client-channel|android\.clients|mail|youtube-ui\.l|inbox|clients[1-9]|cse|ogs|play|pki-goog\.l|apis|plus\.l|www(3\.l)?|video-stats\.l|id)\.)?google.com|googleapis\.com|^(ssl\.)?gstatic\.com$|^(manifest|redirector)\.googlevideo\.com|(geo|yt)3\.ggpht\.com$/
+/^(userlocation|messages|safebrowsing|play|steamcloud-eu-fra\.storage|fcm|android|maps|www|fonts|youtubei|firebaseremoteconfig|(notifications|gnpfesdk|geller|lamssettings|jnn|androidpay-users|deviceintegritytokens|playatoms|ulp1p|people|reach|semanticlocation|reminders|androidtvlauncherxfe|update)-pa|staging-locationhistory-pa\.sandbox|instantmessaging-pa-preprod-eu)\.googleapis.com$/
+/^api([0-9])?[-\.].*((((((((teslacoilapps|accounts\.nintendo|minecraftservices|techlandonlineservices|gog|pushbullet|github|google|steampowered|blizzard|dropbox|twitter|soundcloud|authy|firefox|discogs|postnord|pushbullet|samsungcloud|telldus|unsplash)\.com|(audnex)\.us)|(snapcraft)\.io)|(signal|jdownloader)\.org)|(epicgames)\.dev$)|(ipdata)\.co)|(svt)\.se)|(plex)\.tv$)/
+/^connectivitycheck\.gstatic\.com$/
+@@-ds.metric.gstatic.com^|
+@@|google.cdn.steampipe.steamcontent.com^$important
+@@|google2.cdn.steampipe.steamcontent.com^$important
+@@|steamcloud-sydney.storage.googleapis.com^$important
+@@|steamcloud-ugc.storage.googleapis.com^$important
+@@||0.client-channel.google.com^$important
+@@||0.client-channel.google.com^$important,document,~extension
+@@||ajax.googleapis.com^$important
+@@||android.clients.google.com^$important
+@@||android.clients.google.com^$important,document,~extension
+@@||appsbackup-pa.clients6.google.com^$important
+@@||appsbackup-pa.clients6.google.com^$important,document,~extension
+@@||appsbackup-pa.googleapis.com^$important
+@@||appsbackup-pa.googleapis.com^$important,document,~extension
+@@||appspot-preview.l.google.com^$important
+@@||clients.l.google.com^$important
+@@||clients1.google.com^$important
+@@||clients1.google.com^$important,document,~extension
+@@||clients2.google.com^$important
+@@||clients2.google.com^$important,document,~extension
+@@||clients3.google.com^$important
+@@||clients3.google.com^$important,document,~extension
+@@||clients4.google.com^$important
+@@||clients4.google.com^$important,document,~extension
+@@||clients5.google.com^$important
+@@||clients5.google.com^$important,document,~extension
+@@||clients6.google.com^$important
+@@||clients6.google.com^$important,document,~extension
+@@||connectivitycheck.gstatic.com^$important
+@@||cse.google.com^$important
+@@||cse.google.com^$important,document,~extension
+@@||firebaselogging-pa.googleapis.com^$important
+@@||fonts.gstatic.com^$important
+@@||fonts.gstatic.com^$important,document,~extension
+@@||google-analytics.com^$important
+@@||googleadapis.l.google.com^|
+@@||googleapis.com^$important
+@@||googleapis.com^$important,document,~extension
+@@||googlevideo.com^$important
+@@||gstatic.com^$important
+@@||gstatic.com^$important,document,~extension
+@@||imasdk.googleapis.com^|
+@@||instantmessaging-pa.googleapis.com^$important
+@@||instantmessaging-pa.googleapis.com^$important,document,~extension
+@@||manifest.googlevideo.com^$important
+@@||manifest.googlevideo.com^$important,document,~extension
+@@||redirector.googlevideo.com^$important
+@@||redirector.googlevideo.com^$important,document,~extension
+@@||ssl.google-analytics.com^$important
+@@||suggestqueries.google.com
+@@||video-stats.l.google.com^$important
+@@||video-stats.l.google.com^$important,document,~extension
+@@||www.google-analytics.com^$important
+@@||www.google.com^$important
+@@||www.google.fr^$important
+@@||www.googleadservices.com^|
+@@||www.googleapis.com^$important
+@@||www.googleapis.com^$important,document,~extension
