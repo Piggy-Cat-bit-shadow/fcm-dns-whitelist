@@ -5,6 +5,9 @@ on:
     - cron: "0 2 * * *"   # 每天 UTC 2 点自动更新
   workflow_dispatch:
 
+permissions:
+  contents: write   # ⭐ 关键：允许这个 workflow 写入代码仓库
+
 jobs:
   update:
     runs-on: ubuntu-latest
